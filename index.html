@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <header style="background: url(./images/header/bg.png) top">
+      <nav class="pt-[48px]">
+        <div class="container m-auto flex justify-between items-center">
+          <div>
+            <a href="index.html">
+              <img
+                src="images/header/header-logo.svg"
+                alt="here is the logo of website"
+              />
+            </a>
+          </div>
+
+          <ul class="flex gap-[50px] text-bl">
+            <li>
+              <a class="hover:text-[#4A99D3] duration-300" href="#">Home</a>
+            </li>
+            <li>
+              <a class="hover:text-[#4A99D3] duration-300" href="#">About</a>
+            </li>
+            <li>
+              <a class="hover:text-[#4A99D3] duration-300" href="#"
+                >Contact Us</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section
+        id="hero"
+        class="pt-[50px] mb-[146px]"
+        style="background: url(./images/header/bg.png) top"
+      >
+        <div class="container m-auto flex justify-between items-center">
+          <div class="header__left">
+            <h1 class="text-[50px] w-[500px] mb-1">
+              New
+              <span class="text-red-500">E-commerce App</span> best for You
+            </h1>
+            <p class="font-normal leading-[36px] w-[636px] mb-[60px]">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet sed
+              vulputate vitae velit dictum cursus amet. Turpis donec ut velit
+              quis. Cursus commodo, eget urna, sapien amet.
+            </p>
+
+            <div class="flex gap-[20px] cursor-pointer">
+              <img
+                class="hover:opacity-[.8] duration-300"
+                src="images/hero/google-play.svg"
+                alt="here is the google play image"
+              />
+              <img
+                class="hover:opacity-[.8] duration-300"
+                src="images/hero/app-store.svg"
+                alt="here is the app store image"
+              />
+            </div>
+          </div>
+
+          <div class="header__right">
+            <img
+              src="images/hero/hero-phone.png"
+              alt="here is the phone of image"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="mb-[90px]">
+        <div class="container m-auto">
+          <h2
+            class="w-[305px] font-normal text-3xl leading-9 tracking-wide mb-[84px]"
+          >
+            What we do to help our customers in digital era.
+          </h2>
+
+          <div class="cards flex flex-wrap gap-[37px]">
+            <div
+              class="hover:scale-105 transition-all cursor-pointer flex flex-col items-center justify-between gap-[36px] card max-w-sm bg-white rounded-lg p-11 shadow-[0_5px_50px_-15px_#4A99D3]"
+            >
+              <a href="#">
+                <img
+                  class="rounded-t-lg"
+                  src="images/about/about-img1.svg"
+                  alt=""
+                />
+              </a>
+              <div>
+                <a href="#">
+                  <h5
+                    class="mb-3 text-2xl font-medium tracking-wide text-gray-900 dark:text-white"
+                  >
+                    Receive
+                  </h5>
+                </a>
+                <p
+                  class="mb-[56px] text-[16px] leading-relaxed font-normal text-black opacity-[60%]"
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+                <a
+                  href="#"
+                  class="inline-flex items-center text-sm font-medium text-left text-[#4A99D3] rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                >
+                  Read more
+                  <svg
+                    class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 14 10"
+                  >
+                    <path
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M1 5h12m0 0L9 1m4 4L9 9"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+
+            <div
+              class="hover:scale-105 transition-all cursor-pointer flex flex-col items-center justify-between gap-[36px] card max-w-sm bg-white rounded-lg p-11 shadow-[0_5px_50px_-15px_#4A99D3]"
+            >
+              <a href="#">
+                <img
+                  class="rounded-t-lg"
+                  src="images/about/about-img2.svg"
+                  alt=""
+                  width="182"
+                  height="132"
+                />
+              </a>
+              <div>
+                <a href="#">
+                  <h5
+                    class="mb-3 text-2xl font-medium tracking-wide text-gray-900 dark:text-white"
+                  >
+                    Receive
+                  </h5>
+                </a>
+                <p
+                  class="mb-[56px] text-[16px] leading-relaxed font-normal text-black opacity-[60%]"
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+                <a
+                  href="#"
+                  class="inline-flex items-center text-sm font-medium text-left text-[#4A99D3] rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                >
+                  Read more
+                  <svg
+                    class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 14 10"
+                  >
+                    <path
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M1 5h12m0 0L9 1m4 4L9 9"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+
+            <div
+              class="hover:scale-105 transition-all cursor-pointer flex flex-col items-center justify-between gap-[36px] card max-w-sm bg-white rounded-lg p-11 shadow-[0_5px_50px_-15px_#4A99D3]"
+            >
+              <a href="#">
+                <img
+                  class="rounded-t-lg"
+                  src="images/about/about-img3.svg"
+                  alt=""
+                />
+              </a>
+              <div>
+                <a href="#">
+                  <h5
+                    class="mb-3 text-2xl font-medium tracking-wide text-gray-900 dark:text-white"
+                  >
+                    Receive
+                  </h5>
+                </a>
+                <p
+                  class="mb-[56px] text-[16px] leading-relaxed font-normal text-black opacity-[60%]"
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+                <a
+                  href="#"
+                  class="inline-flex items-center text-sm font-medium text-left text-[#4A99D3] rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                >
+                  Read more
+                  <svg
+                    class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 14 10"
+                  >
+                    <path
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M1 5h12m0 0L9 1m4 4L9 9"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+
+            <div
+              class="hover:scale-105 transition-all cursor-pointer flex flex-col items-center justify-between gap-[36px] card max-w-sm bg-white rounded-lg p-11 shadow-[0_5px_50px_-15px_#4A99D3]"
+            >
+              <a href="#">
+                <img
+                  class="rounded-t-lg"
+                  src="images/about/about-img1.svg"
+                  alt=""
+                />
+              </a>
+              <div>
+                <a href="#">
+                  <h5
+                    class="mb-3 text-2xl font-medium tracking-wide text-gray-900 dark:text-white"
+                  >
+                    Receive
+                  </h5>
+                </a>
+                <p
+                  class="mb-[56px] text-[16px] leading-relaxed font-normal text-black opacity-[60%]"
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+                <a
+                  href="#"
+                  class="inline-flex items-center text-sm font-medium text-left text-[#4A99D3] rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                >
+                  Read more
+                  <svg
+                    class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 14 10"
+                  >
+                    <path
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M1 5h12m0 0L9 1m4 4L9 9"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+
+            <div
+              class="hover:scale-105 transition-all cursor-pointer flex flex-col items-center justify-between gap-[36px] card max-w-sm bg-white rounded-lg p-11 shadow-[0_5px_50px_-15px_#4A99D3]"
+            >
+              <a href="#">
+                <img
+                  class="rounded-t-lg"
+                  src="images/about/about-img2.svg"
+                  alt=""
+                  width="182"
+                  height="132"
+                />
+              </a>
+              <div>
+                <a href="#">
+                  <h5
+                    class="mb-3 text-2xl font-medium tracking-wide text-gray-900 dark:text-white"
+                  >
+                    Receive
+                  </h5>
+                </a>
+                <p
+                  class="mb-[56px] text-[16px] leading-relaxed font-normal text-black opacity-[60%]"
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+                <a
+                  href="#"
+                  class="inline-flex items-center text-sm font-medium text-left text-[#4A99D3] rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                >
+                  Read more
+                  <svg
+                    class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 14 10"
+                  >
+                    <path
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M1 5h12m0 0L9 1m4 4L9 9"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+
+            <div
+              class="flex flex-col items-center justify-between gap-[36px] card max-w-sm bg-white rounded-lg p-11 shadow-[0_5px_50px_-15px_#4A99D3]"
+            >
+              <a href="#">
+                <img
+                  class="rounded-t-lg"
+                  src="images/about/about-img3.svg"
+                  alt=""
+                />
+              </a>
+              <div>
+                <a href="#">
+                  <h5
+                    class="mb-3 text-2xl font-medium tracking-wide text-gray-900 dark:text-white"
+                  >
+                    Receive
+                  </h5>
+                </a>
+                <p
+                  class="mb-[56px] text-[16px] leading-relaxed font-normal text-black opacity-[60%]"
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+                <a
+                  href="#"
+                  class="inline-flex items-center text-sm font-medium text-left text-[#4A99D3] rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                >
+                  Read more
+                  <svg
+                    class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 14 10"
+                  >
+                    <path
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M1 5h12m0 0L9 1m4 4L9 9"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="work" class="py-[95px] bg-[#4a9ad34b]">
+        <div class="container m-auto">
+          <h3 class="text-center font-bold text-[#4A99D3] text-2xl mb-[88px]">
+            How it works
+          </h3>
+
+          <div class="cards flex justify-between">
+            <div class="card flex flex-col items-center gap-[30px] w-[33.3%]">
+              <img
+                src="images/work/work-icon1.svg"
+                alt="here is the icon of person"
+                width="60"
+              />
+
+              <div class="work__content">
+                <p class="text-center text-[18px] font-medium mb-[10px]">
+                  Create an account
+                </p>
+                <p class="text-center text-[16px] w-[224px]">
+                  Lorem ipsum dolor sit amet, consecteteu.
+                </p>
+              </div>
+            </div>
+
+            <div class="card flex flex-col items-center gap-[30px] w-[33.3%]">
+              <img
+                src="images/work/work-icon2.svg"
+                alt="here is the icon of person"
+                width="60"
+              />
+
+              <div class="work__content">
+                <p class="text-center text-[18px] font-medium mb-[10px]">
+                  Create an account
+                </p>
+                <p class="text-center text-[16px] w-[224px]">
+                  Lorem ipsum dolor sit amet, consecteteu.
+                </p>
+              </div>
+            </div>
+
+            <div class="card flex flex-col items-center gap-[30px] w-[33.3%]">
+              <img
+                src="images/work/work-icon3.svg"
+                alt="here is the icon of person"
+                width="60"
+              />
+
+              <div class="work__content">
+                <p class="text-center text-[18px] font-medium mb-[10px]">
+                  Create an account
+                </p>
+                <p class="text-center text-[16px] w-[224px]">
+                  Lorem ipsum dolor sit amet, consecteteu.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="client" class="pt-[87px] mb-[158px]">
+        <div class="container m-auto">
+          <h1 class="client__title text-center font-bold text-2xl mb-1">
+            What our client say
+          </h1>
+          <div class="client__content flex items-center gap-[100px]">
+            <div class="client__left">
+              <img
+                src="images/client/client.png"
+                alt="here is the image of clinet "
+              />
+            </div>
+
+            <div class="client__right flex flex-col gap-[40px] mt-12">
+              <img
+                src="images/client/client-quote.svg"
+                alt="here is the icon of quote"
+                width="50"
+              />
+
+              <blockquote class="leading-5 w-[418px] opacity-50">
+                Amet in elementum nulla scelerisque dui, egestas at. Elit
+                consectetur turpis elementum amet vitae et etiam nec. Varius
+                volutpat hac adipiscing tincidunt pretium.
+              </blockquote>
+
+              <p class="text-xl font-bold">Angel Paulina</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="app" class="mb-32">
+        <div class="container m-auto flex gap-[120px] items-center">
+          <img
+            src="images/app/phone-app.png"
+            alt="here is the image of phone"
+          />
+          <div class="app__right flex flex-col items-center gap-14">
+            <div class="app__content">
+              <h2 class="font-bold text-center text-lg mb-4">
+                Download app to enjoy more!
+              </h2>
+              <p class="text-center text-base w-[444px] opacity-50">
+                Amet in elementum nulla scelerisque dui, egestas at. Elit
+                consectetur turpis elementum amet vitae et etiam nec. Varius
+                volutpat hac adipiscing tincidunt pretium.
+              </p>
+            </div>
+
+            <div class="app__images flex gap-">
+              <img
+                src="images/app/app-googleplay.svg"
+                alt="here is the google play image"
+              />
+              <img
+                src="images/app/app-appstore.svg"
+                alt="here is the app store image"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <footer class="bg-[#4A99D3] dark:bg-gray-900 text-">
+        <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+          <div class="md:flex md:justify-between">
+            <div class="mb-6 md:mb-0">
+              <a href="https://flowbite.com/" class="flex items-center">
+                <img src="images/footer/footer-logo.png" class="h-8 me-3"
+                alt="FlowBite Logo" / >
+              </a>
+            </div>
+            <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+              <div>
+                <h2
+                  class="mb-6 text-sm font-semibold text-white uppercase dark:text-white"
+                >
+                  Resources
+                </h2>
+                <ul class="text-white dark:text-gray-400 font-medium">
+                  <li class="mb-4">
+                    <a href="https://flowbite.com/" class="hover:underline"
+                      >Flowbite</a
+                    >
+                  </li>
+                  <li>
+                    <a href="https://tailwindcss.com/" class="hover:underline"
+                      >Tailwind CSS</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <h2
+                  class="mb-6 text-sm font-semibold text-white uppercase dark:text-white"
+                >
+                  Follow us
+                </h2>
+                <ul class="text-white dark:text-gray-400 font-medium">
+                  <li class="mb-4">
+                    <a
+                      href="https://github.com/themesberg/flowbite"
+                      class="hover:underline"
+                      >Github</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://discord.gg/4eeurUVvTy"
+                      class="hover:underline"
+                      >Discord</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <h2
+                  class="mb-6 text-sm font-semibold text-white uppercase dark:text-white"
+                >
+                  Legal
+                </h2>
+                <ul class="text-white dark:text-gray-400 font-medium">
+                  <li class="mb-4">
+                    <a href="#" class="hover:underline">Privacy Policy</a>
+                  </li>
+                  <li>
+                    <a href="#" class="hover:underline"
+                      >Terms &amp; Conditions</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <hr
+            class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8"
+          />
+          <div class="sm:flex sm:items-center sm:justify-between">
+            <span class="text-sm text-white sm:text-center dark:text-gray-400"
+              >© 2023
+              <a href="https://flowbite.com/" class="hover:underline"
+                >Copyright © 2020. All rights reserved.</a
+              >.
+            </span>
+            <div class="flex mt-4 sm:justify-center sm:mt-0">
+              <a
+                href="#"
+                class="text-white hover:text-gray-900 dark:hover:text-white"
+              >
+                <svg
+                  class="w-4 h-4"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="currentColor"
+                  viewBox="0 0 8 19"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M6.135 3H8V0H6.135a4.147 4.147 0 0 0-4.142 4.142V6H0v3h2v9.938h3V9h2.021l.592-3H5V3.591A.6.6 0 0 1 5.592 3h.543Z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+                <span class="sr-only">Facebook page</span>
+              </a>
+              <a
+                href="#"
+                class="text-white hover:text-gray-900 dark:hover:text-white ms-5"
+              >
+                <svg
+                  class="w-4 h-4"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="currentColor"
+                  viewBox="0 0 21 16"
+                >
+                  <path
+                    d="M16.942 1.556a16.3 16.3 0 0 0-4.126-1.3 12.04 12.04 0 0 0-.529 1.1 15.175 15.175 0 0 0-4.573 0 11.585 11.585 0 0 0-.535-1.1 16.274 16.274 0 0 0-4.129 1.3A17.392 17.392 0 0 0 .182 13.218a15.785 15.785 0 0 0 4.963 2.521c.41-.564.773-1.16 1.084-1.785a10.63 10.63 0 0 1-1.706-.83c.143-.106.283-.217.418-.33a11.664 11.664 0 0 0 10.118 0c.137.113.277.224.418.33-.544.328-1.116.606-1.71.832a12.52 12.52 0 0 0 1.084 1.785 16.46 16.46 0 0 0 5.064-2.595 17.286 17.286 0 0 0-2.973-11.59ZM6.678 10.813a1.941 1.941 0 0 1-1.8-2.045 1.93 1.93 0 0 1 1.8-2.047 1.919 1.919 0 0 1 1.8 2.047 1.93 1.93 0 0 1-1.8 2.045Zm6.644 0a1.94 1.94 0 0 1-1.8-2.045 1.93 1.93 0 0 1 1.8-2.047 1.918 1.918 0 0 1 1.8 2.047 1.93 1.93 0 0 1-1.8 2.045Z"
+                  />
+                </svg>
+                <span class="sr-only">Discord community</span>
+              </a>
+              <a
+                href="#"
+                class="text-white hover:text-gray-900 dark:hover:text-white ms-5"
+              >
+                <svg
+                  class="w-4 h-4"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="currentColor"
+                  viewBox="0 0 20 17"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M20 1.892a8.178 8.178 0 0 1-2.355.635 4.074 4.074 0 0 0 1.8-2.235 8.344 8.344 0 0 1-2.605.98A4.13 4.13 0 0 0 13.85 0a4.068 4.068 0 0 0-4.1 4.038 4 4 0 0 0 .105.919A11.705 11.705 0 0 1 1.4.734a4.006 4.006 0 0 0 1.268 5.392 4.165 4.165 0 0 1-1.859-.5v.05A4.057 4.057 0 0 0 4.1 9.635a4.19 4.19 0 0 1-1.856.07 4.108 4.108 0 0 0 3.831 2.807A8.36 8.36 0 0 1 0 14.184 11.732 11.732 0 0 0 6.291 16 11.502 11.502 0 0 0 17.964 4.5c0-.177 0-.35-.012-.523A8.143 8.143 0 0 0 20 1.892Z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+                <span class="sr-only">Twitter page</span>
+              </a>
+              <a
+                href="#"
+                class="text-white hover:text-gray-900 dark:hover:text-white ms-5"
+              >
+                <svg
+                  class="w-4 h-4"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M10 .333A9.911 9.911 0 0 0 6.866 19.65c.5.092.678-.215.678-.477 0-.237-.01-1.017-.014-1.845-2.757.6-3.338-1.169-3.338-1.169a2.627 2.627 0 0 0-1.1-1.451c-.9-.615.07-.6.07-.6a2.084 2.084 0 0 1 1.518 1.021 2.11 2.11 0 0 0 2.884.823c.044-.503.268-.973.63-1.325-2.2-.25-4.516-1.1-4.516-4.9A3.832 3.832 0 0 1 4.7 7.068a3.56 3.56 0 0 1 .095-2.623s.832-.266 2.726 1.016a9.409 9.409 0 0 1 4.962 0c1.89-1.282 2.717-1.016 2.717-1.016.366.83.402 1.768.1 2.623a3.827 3.827 0 0 1 1.02 2.659c0 3.807-2.319 4.644-4.525 4.889a2.366 2.366 0 0 1 .673 1.834c0 1.326-.012 2.394-.012 2.72 0 .263.18.572.681.475A9.911 9.911 0 0 0 10 .333Z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+                <span class="sr-only">GitHub account</span>
+              </a>
+              <a
+                href="#"
+                class="text-white hover:text-gray-900 dark:hover:text-white ms-5"
+              >
+                <svg
+                  class="w-4 h-4"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M10 0a10 10 0 1 0 10 10A10.009 10.009 0 0 0 10 0Zm6.613 4.614a8.523 8.523 0 0 1 1.93 5.32 20.094 20.094 0 0 0-5.949-.274c-.059-.149-.122-.292-.184-.441a23.879 23.879 0 0 0-.566-1.239 11.41 11.41 0 0 0 4.769-3.366ZM8 1.707a8.821 8.821 0 0 1 2-.238 8.5 8.5 0 0 1 5.664 2.152 9.608 9.608 0 0 1-4.476 3.087A45.758 45.758 0 0 0 8 1.707ZM1.642 8.262a8.57 8.57 0 0 1 4.73-5.981A53.998 53.998 0 0 1 9.54 7.222a32.078 32.078 0 0 1-7.9 1.04h.002Zm2.01 7.46a8.51 8.51 0 0 1-2.2-5.707v-.262a31.64 31.64 0 0 0 8.777-1.219c.243.477.477.964.692 1.449-.114.032-.227.067-.336.1a13.569 13.569 0 0 0-6.942 5.636l.009.003ZM10 18.556a8.508 8.508 0 0 1-5.243-1.8 11.717 11.717 0 0 1 6.7-5.332.509.509 0 0 1 .055-.02 35.65 35.65 0 0 1 1.819 6.476 8.476 8.476 0 0 1-3.331.676Zm4.772-1.462A37.232 37.232 0 0 0 13.113 11a12.513 12.513 0 0 1 5.321.364 8.56 8.56 0 0 1-3.66 5.73h-.002Z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+                <span class="sr-only">Dribbble account</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </footer>
+  </body>
+</html>
